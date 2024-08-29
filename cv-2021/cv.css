@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* cv CSS Document */
+*:focus { outline:none;}
+a.anchor, a.anchor:focus, a.anchor:hover{text-decoration: none; color: inherit; outline: none; word-wrap: break-word;}
+.small-divider{display:none;}
+.outer-box-border{border:1px solid #e2e2e2;box-shadow: 0px 0px 5px 0px #88888885;}
+.greyiss{background-color:#576d7b; }
+.greiss-font{color:#576d7b; }
+.dark-greyiss{background-color: #3C3633 !important;
+    color: white;}
+.brdr-top-botm{border-top:2px solid #eaeaea;border-bottom: 2px solid #eaeaea;}
+.left-side{background-color:#ffda33;color:#000000;padding: 1.5em;height:100%;}
+.left-hding{
+    margin: 10px -24px;
+    padding: 5px 24px;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    font-weight: 600;
+}
+.cv-avatar{margin: -24px -24px 0px -24px; border: 1px solid #3c3633;}
+.main-title-txt{
+    text-transform: capitalize;
+    font-size: 2.5em;
+    padding-top: 8px;
+    line-height: 1.22em;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.intro-top h5{
+    font-weight: 300;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    margin-bottom: 1.5rem;
+}
+.contact-hdings{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
+    display: block;
+}
+.gernal-txt{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 300;
+}
+.gernal-mb-2{margin-bottom: 2em;}
+.skill-count{margin-top: 1em;}
+.rating{text-align: right;}
+
+/* right side*/
+.objective-txt{margin-top: 2.5em; margin-bottom: 2em;}
+.objective-txt p{font-size: 16px; line-height: 22px; font-weight: 400;letter-spacing: 0.5px;}
+.work-hding, .education-hding, .Interest-hding{margin-bottom: 1em;}
+.right-date{
+    font-size: 1.2em;
+    line-height: 1.2em;
+    font-weight: 600;
+}
+.work-title{
+    font-size: 1.5em;
+    line-height: 1.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.work-company{
+    font-size: 1.2em;
+    line-height: 1em;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 0.5px;
+}
+.right-listing{
+    list-style: disc;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+}
+.project-name{
+    display: block;
+    margin: 10px 1px;
+    font-size: 1.3em;
+    line-height: 1.2em;
+    font-weight: 500;
+}
+.education-certificate{
+    margin-bottom: 5px;
+    font-size: 1.3em;
+    line-height: 1.2em;
+    font-weight: 500;
+}
+.education-institute{
+    font-style: italic;
+    font-size: 15px;
+    line-height: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width:300px){
+    .right-listing{padding-inline-start: 15px;}
+    .left-side{padding: 10px;}
+    .left-hding { margin: 10px -10px; padding: 5px 10px;}
+    .cv-avatar{box-sizing: border-box; margin: -10px -10px 0px -10px;}
+    .main-title-txt{font-size: 2em; line-height: normal;}
+    .intro-top h5{font-size: 1em; line-height: normal;}
+}
+@media only screen and (max-width: 767px) {
+    .small-divider{display:block; margin-top: 1rem; margin-bottom: 1rem; border: 0; border-top: 1px solid rgba(0,0,0,.1);}
+    .cv-avatar, .intro-top{text-align: center}
+}
+
+@media only screen and (max-width: 991px) and (min-width:768px){
+    .main-title-txt{font-size: 2em; line-height: 1.2em;}
+    .intro-top h5{font-size: 1.2em; line-height: 1em;}
+    .left-side{padding: 0.5em;}
+    .cv-avatar{margin: -8px -8px 0px -8px;text-align: center}
+    .left-hding{margin: 10px -8px;padding: 5px 8px;}
+}
+@media print{*a{text-decoration:none;}}
